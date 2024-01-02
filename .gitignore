@@ -1,0 +1,11 @@
+# Git ignore for a Python project
+
+*.pyc
+*.pyo
+*.so
+*.egg-info
+*.egg-info/
+*.egg
+__pycache__
+
+diagrams/

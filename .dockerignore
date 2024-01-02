@@ -1,0 +1,27 @@
+# Docker ignore for a python project
+
+*.pyc
+*.pyo
+*.so
+*.egg-info
+*.egg-info/
+*.egg
+__pycache__
+
+# Docker ignore for a docker image
+
+.dockerfile
+.dockerignore
+docker-compose.yml
+
+# Docker ignore for a git project
+
+.git/
+.gitignore
+.gitattributes
+.gitmodules
+
+# Docker ignore for a misc project
+
+.DS_Store
+.DS_Store?

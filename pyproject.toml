@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "diagram-as-code-with-python"
+version = "0.1.0"
+description = "Diagram as code"
+authors = ["Tobi Akanji <tobia807@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+diagrams = "^0.23.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+diagram-as-code = "diagram_as_code_with_python:main"
